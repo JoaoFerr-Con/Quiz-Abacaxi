@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Quiz do Festival do Abacaxi — Barcarena</title>
+  <meta name="description" content="Quiz interativo do Festival do Abacaxi de Barcarena. Responda, acumule XP e descubra sua patente.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Lordicon: ícones animados (abacaxi, fogo de streak, troféu). Ver js/effects.js
+       para o mapa de ícones e o fallback em CSS puro caso o CDN não responda. -->
+  <script src="https://cdn.lordicon.com/lordicon.js" defer></script>
+
+  <!-- Supabase: carregado sem defer/async de propósito — precisa estar pronto
+       (window.supabase definido) antes de qualquer módulo em js/ rodar.
+       Sem SUPABASE_URL/ANON_KEY configurados em js/supabase-config.js, o app
+       simplesmente ignora este client e segue 100% local (ver js/supabase.js). -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+</head>
+<body>
+  <div id="boot-loader" class="boot-loader">
+    <span style="font-size:40px">🍍</span>
+    <span>Carregando o quiz…</span>
+  </div>
+
+  <main id="app"></main>
+
+  <!-- SPA real: um único index.html, navegação 100% via JS (sem reload). -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
