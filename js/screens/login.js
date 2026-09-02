@@ -114,7 +114,7 @@ function handleSubmit(root, entry) {
     showResumeChoice({
       title: "Bem-vindo(a) de volta! 🍍",
       message: `Encontramos uma partida em andamento com ${localSave.xp} XP. Quer continuar de onde parou?`,
-      confirmLabel: "Continuar jornada →",
+      confirmLabel: "Continuar jornada",
       cancelLabel: "Começar do zero",
       onConfirm: () => setState({ ...localSave, entry: null, screen: "quiz" }),
       onCancel: () => startNewGame(root, player, entry),
