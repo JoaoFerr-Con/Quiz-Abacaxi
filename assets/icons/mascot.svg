@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Mascote abacaxi de óculos">
+  <defs>
+    <linearGradient id="ms-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFE58A"/>
+      <stop offset="55%" stop-color="#FFC94A"/>
+      <stop offset="100%" stop-color="#FF9F1C"/>
+    </linearGradient>
+    <linearGradient id="ms-leaf" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#0F8B4C"/>
+      <stop offset="100%" stop-color="#5FE39B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sombra -->
+  <ellipse cx="100" cy="228" rx="46" ry="8" fill="#000" opacity="0.25"/>
+
+  <!-- coroa de folhas -->
+  <g fill="url(#ms-leaf)">
+    <path d="M100,10 C104,32 104,44 100,58 C96,44 96,32 100,10 Z"/>
+    <path d="M76,20 C86,36 92,46 97,58 C86,50 76,40 68,26 Z"/>
+    <path d="M124,20 C114,36 108,46 103,58 C114,50 124,40 132,26 Z"/>
+    <path d="M56,34 C70,44 80,52 88,60 C74,58 60,50 48,40 Z"/>
+    <path d="M144,34 C130,44 120,52 112,60 C126,58 140,50 152,40 Z"/>
+  </g>
+
+  <!-- corpo -->
+  <path d="M100,54 C138,54 156,86 151,120 C147,150 126,172 100,172 C74,172 53,150 49,120 C44,86 62,54 100,54 Z"
+        fill="url(#ms-body)" stroke="#B5651D" stroke-width="1.5"/>
+
+  <!-- textura -->
+  <g stroke="#B5651D" stroke-width="1.4" fill="none" opacity="0.45">
+    <path d="M100,58 L64,92 M100,58 L136,92 M100,58 L100,172"/>
+    <path d="M64,92 L100,118 M136,92 L100,118 M100,118 L100,172"/>
+    <path d="M64,92 L54,120 M136,92 L146,120"/>
+    <path d="M54,120 L100,150 M146,120 L100,150 M100,150 L100,172"/>
+  </g>
+
+  <!-- óculos escuros -->
+  <g>
+    <rect x="60" y="98" width="34" height="24" rx="8" fill="#1b1230"/>
+    <rect x="106" y="98" width="34" height="24" rx="8" fill="#1b1230"/>
+    <rect x="93" y="106" width="14" height="6" rx="3" fill="#1b1230"/>
+    <path d="M60,104 L46,100" stroke="#1b1230" stroke-width="4" stroke-linecap="round"/>
+    <path d="M140,104 L154,100" stroke="#1b1230" stroke-width="4" stroke-linecap="round"/>
+    <path d="M68,105 Q76,101 86,106" stroke="#5a4a86" stroke-width="3" fill="none" opacity="0.7"/>
+  </g>
+
+  <!-- sorriso -->
+  <path d="M78,140 Q100,156 122,140" fill="none" stroke="#B5651D" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="66" cy="128" r="7" fill="#FF8C6B" opacity="0.55"/>
+  <circle cx="134" cy="128" r="7" fill="#FF8C6B" opacity="0.55"/>
+</svg>

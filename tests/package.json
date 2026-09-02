@@ -1,0 +1,11 @@
+{
+  "name": "abacaxi-quiz-tests",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node run_all.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^30.0.0"
+  }
+}
