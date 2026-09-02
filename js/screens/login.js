@@ -64,7 +64,7 @@ function view(entry) {
         <p class="privacy-note">Usamos seu CPF só para identificar sua
           participação única no quiz e liberar seu certificado ao final.</p>
 
-        <button type="submit" class="btn btn--primary btn--block">Começar a jornada →</button>
+        <button type="submit" class="btn btn--primary btn--block">Começar a jornada </button>
       </form>
 
       <a class="source-link" href="${SOURCE_URL}" target="_blank" rel="noopener">
